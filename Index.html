@@ -2,8 +2,133 @@
 <html>
     <head>
         <title>CSS Assignment 3</title>
+        <style>
+            #icone{width: 40px;}
+            .inline{display: inline;}
+            .Menue{margin-left: 30px;}
+            #login{ float: right;}
+            #general{ padding-left: 20px; padding-right: 20px;}
+            #img1
+                {
+                    border: 5px solid rgb(233, 14, 14);
+                    border-radius: 100%;
+                    margin: 10px 150px;}
+           center{ text-align: center;}
+
+          .card{width: 250px; 
+                        display: inline-block;
+                         margin-left: 30px;
+                         text-align:justify;
+                         box-shadow: 0 4px 8px 0 lightgray, 0 6px 20px 0 lightgray;
+                         border-top: red solid 5px;
+                         padding: 8px;
+                    }
+            .column{ column-count: 3;column-gap: 5px;}
+            .blue{ background-color: lightblue;}
+            .Width100{ width: 100%;}
+             #Textareaheight{ min-height: 200px;}
+        </style>
+
     </head>
     <body>
+        <div id="general" >
+            <br>
+            <div class="inline"> <img id="icone" src="img.JPG"></div>
+            <div class="inline"> 
+            <span class="Menue">HOME</span>
+            <span class="Menue">SERVICE</span>
+            <span class="Menue">ABOUT</span>
+            <span class="Menue">CONTACT</span>
+            </div>
+            <div id="login">
+            <br>
+            Login
+            </div>
+            <div class="center">  <img id="img1" src="img.JPG" width="100" height="100" >
+                <h3>Madina Sidiqi</h3>
+                <h5>Web Developer</h5>
+            </div>
+
+<div  class="card">
+    <h1>Web Design</h1>
+    <p>
         
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam, reiciendis est aperiam deleniti provident? Ducimus error sed, inventore impedit sit architecto dolore quaerat, velit, praesentium autem facere magnam itaque!
+    </p>
+</div>
+<div class="card">
+    <h1>Web Front</h1>
+    <p>
+      
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam, reiciendis est aperiam deleniti provident? Ducimus error sed, inventore impedit sit architecto dolore quaerat, velit, praesentium autem facere magnam itaque!
+    </p>
+</div>
+<div class="card">
+    <h1>Web Backend</h1>
+    <p>
+      
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam, reiciendis est aperiam deleniti provident? Ducimus error sed, inventore impedit sit architecto dolore quaerat, velit, praesentium autem facere magnam itaque!
+    </p>
+</div>
+<div class="card">
+    <h1>Web Development</h1>
+    <p>
+      
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam, reiciendis est aperiam deleniti provident? Ducimus error sed, inventore impedit sit architecto dolore quaerat, velit, praesentium autem facere magnam itaque!
+    </p>
+</div>
+<br> <br>
+<div class="center blue">
+    <h3>Read About US</h3> 
+    <p class="column">
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati iste unde tempora illo assumenda repellat delectus ipsum quisquam? Vitae ullam numquam, officiis excepturi placeat fuga enim quasi harum ipsa?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati iste unde tempora illo assumenda repellat delectus ipsum quisquam? Vitae ullam numquam, officiis excepturi placeat fuga enim quasi harum ipsa?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati iste unde tempora illo assumenda repellat delectus ipsum quisquam? Vitae ullam numquam, officiis excepturi placeat fuga enim quasi harum ipsa?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati iste unde tempora illo assumenda repellat delectus ipsum quisquam? Vitae ullam numquam, officiis excepturi placeat fuga enim quasi harum ipsa?
+    </p>
+</div>
+<br>
+<br>
+<div>
+<h2>Contact US</h2>
+<table class="Width100">
+   <tbody >
+    <tr>
+        <td><input class="Width100" type="text" placeholder="Name"></td>
+        <td><input class="Width100" type="email" placeholder="Email"></td>
+    </tr>
+    <tr>
+        <td>
+            <select class="Width100"> <option>Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+         </select>
+        </td>
+        <td><input class="Width100" type="text" placeholder="Address"></td>
+    </tr>
+    <tr>
+        <td colspan="2"> <textarea id="Textareaheight" class="Width100" placeholder="Message"></textarea> </td>
+      
+    </tr>
+    <tr>
+        <td>
+            <button style="background-color: red;">
+                Send
+            </button>
+        </td>
+      
+    </tr>
+   </tbody>
+</table>
+
+
+</div>
+
+<div class="center">
+    &copy; All rights Reserved
+</div>
+
+        </div>
     </body>
 </html>
